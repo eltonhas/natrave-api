@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "main": "server.js",
   "type": "module",
-  "script": {
-    "start": "node -r dotenv-safe/config server.js"
+  "scripts": {
+    "start": "node -r dotenv-safe/config app/index.js"
   },
   "prisma": {
     "seed": "node prisma/seed.js"
